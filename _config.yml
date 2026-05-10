@@ -1,0 +1,30 @@
+title: WeRock — Comunidad Rider
+description: La comunidad rider en tu bolsillo. Skate · Surf · Snow · BMX · MTB · Roller · Run · y más.
+url: "https://werockapp.com"
+theme: jekyll-theme-cayman
+lang: es
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-relative-links
+  - jekyll-redirect-from
+relative_links:
+  enabled: true
+  collections: false
+include:
+  - "*.md"
+  - "_redirects"
+exclude:
+  - README.md
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

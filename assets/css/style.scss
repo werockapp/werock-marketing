@@ -1,0 +1,215 @@
+---
+# Override del tema Cayman con branding WeRock (verde lima).
+# El front-matter vacio (con guiones) es OBLIGATORIO para que Jekyll
+# procese este archivo via Sass. Si lo quitas, se sirve raw.
+---
+
+@import "{{ site.theme }}";
+
+// --- Brand tokens -------------------------------------------------
+$brand-primary: #76FF03;     // Light Green A400 (lima energetico app)
+$brand-primary-dark: #64DD17; // Light Green A700
+$brand-secondary: #00BFA5;   // Teal A700 (datos del mapa)
+$brand-warm: #FB8C00;        // Orange 600 (eventos calidos)
+$brand-ink: #0E1E0A;         // Verde casi negro para texto
+$brand-mute: #4A5050;
+$brand-soft: #F4FAEE;        // Fondo crema verdoso
+
+// --- Reset/base ---------------------------------------------------
+body {
+  color: $brand-ink;
+  background: $brand-soft;
+}
+
+a {
+  color: $brand-primary-dark;
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+// --- Hero ---------------------------------------------------------
+.page-header {
+  // Reemplaza el header del tema Cayman por nuestro propio hero.
+  display: none;
+}
+
+.hero {
+  background: linear-gradient(135deg, $brand-primary 0%, $brand-secondary 100%);
+  color: white;
+  padding: 4rem 1.5rem 3rem;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 880px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    opacity: 0.95;
+  }
+
+  .lead {
+    font-size: 1.05rem;
+    line-height: 1.55;
+    margin: 0 auto 1.75rem;
+    max-width: 640px;
+    opacity: 0.95;
+  }
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+  }
+
+  .btn-primary {
+    background: white;
+    color: $brand-ink;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+
+    &:hover { box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); }
+  }
+
+  .btn-ghost {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.65);
+
+    &:hover { background: rgba(255, 255, 255, 0.28); }
+  }
+}
+
+// --- Features grid ------------------------------------------------
+.features {
+  max-width: 980px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.feature {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+    color: $brand-ink;
+  }
+
+  p {
+    margin: 0;
+    color: $brand-mute;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+}
+
+// --- Info / status pages -----------------------------------------
+.info,
+.status,
+.footer-info {
+  max-width: 720px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 1.75rem 0 0.5rem;
+  }
+
+  .small-heading {
+    font-size: 1.05rem;
+    margin-top: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: $brand-ink;
+  }
+
+  ul, .small-list {
+    line-height: 1.6;
+  }
+
+  .small {
+    color: $brand-mute;
+    font-size: 0.9rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 2rem 0;
+  }
+}
+
+.status {
+  text-align: center;
+
+  .status-icon {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 0 0.75rem;
+  }
+
+  .cta-row { margin: 1.5rem 0; }
+
+  ul, .small-list { text-align: left; }
+}
+
+.status-success .status-icon { filter: drop-shadow(0 4px 10px rgba(118, 255, 3, 0.4)); }
+.status-warning .status-icon { filter: drop-shadow(0 4px 10px rgba(251, 140, 0, 0.4)); }
+
+// --- Pro placeholder ---------------------------------------------
+.badge-soon {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(251, 140, 0, 0.12);
+  color: $brand-warm;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1.5rem;
+}
