@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.werock.app",
+      "sha256_cert_fingerprints": [
+        "34:1B:E0:02:FF:C8:BE:55:4B:8B:6D:21:AC:81:50:7E:C3:0F:A3:CF:3D:0A:70:97:A9:3A:D1:D5:77:1D:C0:AA",
+        "2C:00:F9:60:3B:16:D9:E6:43:AA:33:F2:1E:80:E0:3B:A8:CA:75:9B:3E:C0:BE:FE:6E:63:DA:A7:12:90:B7:BC"
+      ]
+    }
+  }
+]

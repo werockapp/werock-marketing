@@ -17,6 +17,9 @@ relative_links:
 include:
   - "*.md"
   - "_redirects"
+  # App Links Android (Play + Stripe return). Jekyll excluye por
+  # defecto carpetas con punto; sin esto assetlinks.json no se publica.
+  - .well-known
 exclude:
   - README.md
   - vendor/
@@ -28,3 +31,8 @@ defaults:
       path: ""
     values:
       layout: default
+  # JSON estatico: sin layout HTML (si no, Digital Asset Links falla).
+  - scope:
+      path: ".well-known"
+    values:
+      layout: null

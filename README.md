@@ -30,8 +30,24 @@ werock-marketing/
 │   └── index.md         Hub que enlaza a legal.werockapp.com
 ├── assets/css/style.scss   Override del tema Cayman con branding
 │                            verde-lima de la app (Light Green A400)
+├── .well-known/
+│   └── assetlinks.json  App Links Android (Play App Signing + upload key)
 ├── .gitignore
 └── README.md            (este archivo)
+```
+
+## App Links (`assetlinks.json`)
+
+Publicado en `https://werockapp.com/.well-known/assetlinks.json` para
+verificar el deep link Stripe `https://werockapp.com/__stripe_return`
+(manifiesto Android acotado a ese `pathPrefix`). Misma huella Play que
+`app.werockapp.com` + huella del keystore local de upload (debug/sideload).
+
+Tras push a `main`, GitHub Pages regenera en ~1–2 min. Verificar:
+
+```bash
+curl -sI https://werockapp.com/.well-known/assetlinks.json
+# + Digital Asset Links API (statements:list) para werockapp.com
 ```
 
 ## Caminos de despliegue
