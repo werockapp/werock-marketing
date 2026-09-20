@@ -163,9 +163,11 @@ Cualquier cambio en copy o estructura:
 
 ## TODOs M1+
 
-- [ ] Cambiar el botón "Próximamente en Google Play" a un Play Store
-      badge oficial cuando AAB v11 sea aprobado y la ficha pública
-      esté visible en `https://play.google.com/store/apps/details?id=com.werock.app`.
+- [x] CTA de Google Play a la ficha pública
+      (`https://play.google.com/store/apps/details?id=com.werock.app`).
+      Hecho 20 sep 2026: producción abierta desde AAB 283; copy alineado
+      a ficha Play + legales v1.0 (solo patinaje, sin Closed Testing,
+      sin pitch Stripe/Pro/Wees hasta Día D / ROAD-11).
 - [ ] Considerar `/blog` o `/news` cuando arranque marketing
       orgánico (M1+).
 - [ ] Migrar contenido de `legal.werockapp.com/*` a `/legal/*`
@@ -173,6 +175,8 @@ Cualquier cambio en copy o estructura:
       ahora no es prioritario, los strings de la app apuntan al
       subdominio y mantenerlos vivos no cuesta nada.
 - [ ] Internacionalización (`/en`, `/fr`...) cuando se active M2.
+- [ ] Badge oficial de Play (imagen Google) si se quiere ASO extra;
+      hoy el CTA es un botón de texto a la ficha.
 
 ## Contacto
 

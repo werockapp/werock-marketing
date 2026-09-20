@@ -1,6 +1,6 @@
 ---
 title: WeRock — La comunidad rider en tu bolsillo
-description: WeRock conecta a quienes patinan, surfean, montan y ruedan. Encuentra spots, eventos, rutas y gente cerca de ti.
+description: WeRock es la app de la comunidad patinadora. Encuentra spots, quedadas, recorridos y gente cerca de ti.
 layout: default
 ---
 
@@ -9,15 +9,12 @@ layout: default
     <h1>WeRock</h1>
     <p class="tagline">Patinas, no rellenas formularios.</p>
     <p class="lead">
-      La comunidad rider en tu bolsillo: spots, eventos, rutas, peligros y
-      gente cerca de ti. Skate · Surf · Snow · BMX · MTB · Roller · Run · y más.
+      La comunidad rider en tu bolsillo: spots, quedadas, recorridos,
+      peligros y gente cerca de ti. Patinaje quads e inline.
     </p>
     <div class="cta-row">
-      <!-- TODO M0+1: cambiar a Play Store badge oficial cuando AAB v11 sea aprobado.
-           https://play.google.com/store/apps/details?id=com.werock.app
-           Mientras tanto el botón apunta al placeholder que muestra "Próximamente". -->
-      <a class="btn btn-primary" href="#proximamente">Próximamente en Google Play</a>
-      <a class="btn btn-ghost" href="/legal/">Privacidad y términos</a>
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.werock.app">Disponible en Google Play</a>
+      <a class="btn btn-ghost" href="https://app.werockapp.com">Abrir en la web</a>
     </div>
   </div>
 </section>
@@ -26,25 +23,25 @@ layout: default
   <div class="feature">
     <h2>🗺️ Mapa Discover</h2>
     <p>
-      Spots, peligros, recorridos, eventos y tiendas en un único mapa.
+      Spots, peligros, recorridos, quedadas y tiendas en un único mapa.
       Filtra por radio, capa o tipo. Comparte ubicación con tu gente
       cuando salgáis a rodar.
     </p>
   </div>
   <div class="feature">
-    <h2>📅 Eventos y rutas</h2>
+    <h2>📅 Quedadas y rutas</h2>
     <p>
-      Crea, descubre y apúntate a quedadas, clases, talleres, viajes
-      y rutas. Lleva la cuenta del calendario rider sin que se te
-      escape ninguna sesión.
+      Crea, descubre y apúntate a quedadas, clases, talleres y rutas.
+      Lleva la cuenta del calendario rider sin que se te escape ninguna
+      sesión.
     </p>
   </div>
   <div class="feature">
-    <h2>🛍️ Marketplace y profesionales</h2>
+    <h2>🛍️ Tiendas cerca de ti</h2>
     <p>
-      Tiendas, shapers, escuelas y guías locales con perfil verificado.
-      Stripe Connect para pagos seguros desde la app cuando llegue Pro
-      Basic en M1.
+      Encuentra tiendas, escuelas y clubes locales en el mapa.
+      Perfiles de profesionales de la comunidad, sin intermediarios
+      raros ni formularios eternos.
     </p>
   </div>
   <div class="feature">
@@ -57,17 +54,18 @@ layout: default
 </section>
 
 <section id="proximamente" class="info">
-  <h2>¿Cuándo puedo bajarla?</h2>
+  <h2>¿Dónde la bajo?</h2>
   <p>
-    WeRock está en <strong>Closed Testing</strong> en Google Play. Si
-    eres tester invitado verás el correo con el link directo. Si quieres
-    formar parte del programa de testers fundacionales (clubes y tiendas
-    Madrid/BCN), escríbenos a
-    <a href="mailto:support@werockapp.com">support@werockapp.com</a>.
+    WeRock ya está en <strong>Google Play</strong>. Cualquiera puede
+    instalarla desde la
+    <a href="https://play.google.com/store/apps/details?id=com.werock.app">ficha pública</a>.
+    En el móvil o el ordenador también puedes entrar por la web:
+    <a href="https://app.werockapp.com">app.werockapp.com</a>.
   </p>
   <p>
-    El AAB v11 está en revisión Google Play (8 may 2026). Tras aprobación,
-    Open Testing público y Production llegarán en oleadas.
+    Si eres un club o una tienda de patinaje y quieres formar parte de
+    las altas fundadoras, escríbenos a
+    <a href="mailto:support@werockapp.com">support@werockapp.com</a>.
   </p>
 </section>
 
@@ -76,7 +74,6 @@ layout: default
   <ul>
     <li>General: <a href="mailto:support@werockapp.com">support@werockapp.com</a></li>
     <li>Privacidad: <a href="mailto:privacy@werockapp.com">privacy@werockapp.com</a></li>
-    <li>Asuntos legales: <a href="mailto:legal@werockapp.com">legal@werockapp.com</a></li>
     <li>Reportar un bug: <a href="mailto:bugs@werockapp.com">bugs@werockapp.com</a></li>
   </ul>
   <p class="small">

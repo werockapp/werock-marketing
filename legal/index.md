@@ -49,16 +49,16 @@ permalink: /legal/
 
   <h2>Versión vigente</h2>
   <p>
-    Privacidad y términos están en su versión <strong>1.1</strong> y son
-    válidos a partir del <strong>6 de mayo de 2026</strong>. Cualquier
-    cambio material se notificará a las personas usuarias por email con
+    Privacidad y términos están en su versión <strong>1.0</strong>
+    (septiembre 2026) y son válidos a partir del
+    <strong>17 de septiembre de 2026</strong>. Cualquier cambio
+    material se notificará a las personas usuarias por email con
     al menos 15 días de antelación.
   </p>
 
   <h2>Contacto</h2>
   <ul>
     <li>Privacidad / RGPD: <a href="mailto:privacy@werockapp.com">privacy@werockapp.com</a></li>
-    <li>Asuntos legales: <a href="mailto:legal@werockapp.com">legal@werockapp.com</a></li>
     <li>Soporte general: <a href="mailto:support@werockapp.com">support@werockapp.com</a></li>
   </ul>
 

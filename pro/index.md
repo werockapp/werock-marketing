@@ -1,6 +1,6 @@
 ---
-title: WeRock Pro — Próximamente
-description: Cuenta Pro Basic para profesionales rider (escuelas, tiendas, organizadores). Llega en M1.
+title: WeRock Pro — Clubes y tiendas
+description: Cuenta profesional WeRock para escuelas, tiendas y organizadores. Altas fundadoras por invitación.
 permalink: /pro/
 ---
 
@@ -12,29 +12,25 @@ permalink: /pro/
     de eventos.
   </p>
 
-  <p class="badge-soon">🚧 Llega en M1 (mediados 2026)</p>
+  <p class="badge-soon">Altas fundadoras por invitación</p>
 
-  <h2>¿Qué incluirá Pro Basic?</h2>
+  <h2>¿Para quién es?</h2>
   <ul>
-    <li>Perfil profesional verificado y destacado en el Discover.</li>
-    <li>Stripe Connect para cobros desde la app (3,99 €/mes).</li>
-    <li>Métricas de eventos, ventas y suscriptores.</li>
-    <li>Soporte prioritario.</li>
+    <li><strong>Tienda</strong> — visibilidad en el mapa y catálogo para tu zona.</li>
+    <li><strong>Escuela</strong> — clases, cursos y quedadas de grupo.</li>
+    <li><strong>Organizador</strong> — quedadas y gestión de inscripciones.</li>
+    <li><strong>Club</strong> — comunidad, socios y calendario.</li>
   </ul>
 
-  <h2>Roles especializados (M1+)</h2>
-  <ul>
-    <li><strong>Tienda</strong> — catálogo Marketplace + pickup local.</li>
-    <li><strong>Escuela</strong> — clases, cursos y planes de progreso.</li>
-    <li><strong>Organizador</strong> — eventos de pago + gestión de inscripciones.</li>
-    <li><strong>Sponsor</strong> — patrocinio de riders y campañas.</li>
-    <li><strong>Manager</strong> — gestión multi-rol (varios negocios desde una cuenta).</li>
-  </ul>
+  <p>
+    Estamos invitando a clubes y tiendas fundadoras. No hay alta
+    pública todavía: si te encaja, escríbenos y te avisamos cuando
+    abramos tu plaza.
+  </p>
 
   <p class="small">
-    ¿Te interesa formar parte del programa piloto Pro? Escríbenos a
-    <a href="mailto:support@werockapp.com">support@werockapp.com</a>
-    con tu actividad y zona y te avisamos cuando abramos el alta.
+    Cuéntanos tu actividad y zona en
+    <a href="mailto:support@werockapp.com">support@werockapp.com</a>.
   </p>
 
   <p class="small"><a href="/">← Volver a WeRock</a></p>
