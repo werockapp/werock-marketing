@@ -8,7 +8,7 @@ permalink: /legal/
   <h1>Documentos legales</h1>
 
   <p class="lead">
-    Documentación legal de la app WeRock (<code>com.werock.app</code>).
+    Documentación legal de la app WeRock para Android.
   </p>
 
   <h2>Documentos vigentes</h2>

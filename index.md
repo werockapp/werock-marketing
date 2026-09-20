@@ -77,7 +77,7 @@ layout: default
     <li>Reportar un bug: <a href="mailto:bugs@werockapp.com">bugs@werockapp.com</a></li>
   </ul>
   <p class="small">
-    WeRock © 2026 · App Android <code>com.werock.app</code> ·
+    WeRock © 2026 ·
     <a href="/legal/">Privacidad y términos</a>
   </p>
 </section>
