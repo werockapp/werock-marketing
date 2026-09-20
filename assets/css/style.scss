@@ -29,8 +29,10 @@ a {
 }
 
 // --- Hero ---------------------------------------------------------
-.page-header {
-  // Reemplaza el header del tema Cayman por nuestro propio hero.
+.page-header,
+.site-footer {
+  // Chrome del tema Cayman: "View on GitHub" + enlace al repo.
+  // La landing publica no debe apuntar a github.com/werockapp/werock-marketing.
   display: none;
 }
 
